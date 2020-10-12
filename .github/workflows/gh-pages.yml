@@ -3,7 +3,7 @@ name: Github Pages Pusher
 on:
   pull_request:
     branches: [ main ]
-    types: [ edited, opened ]
+    types: [ synchronize, opened ]
 
 jobs:
   build:
