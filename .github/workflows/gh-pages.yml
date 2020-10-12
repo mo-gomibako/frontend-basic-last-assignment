@@ -1,9 +1,9 @@
 name: Github Pages Pusher
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [ main ]
-    types: [ review_requested ]
+    types: [ edited ]
 
 jobs:
   build:
